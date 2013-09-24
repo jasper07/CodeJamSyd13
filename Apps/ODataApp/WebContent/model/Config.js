@@ -1,18 +1,18 @@
 jQuery.sap.declare("model.Config");
-/**	Store Model Configuration
- * 
+/**	Store Model Configuration, 
+ * change details to your Gateway system
  */
 model.Config = {
 	getUser : function () {
-		return "P1940088349";
+		return "developer";
 	},
 
 	getPwd : function () {
-		return "Initial123";
+		return "ch4ngeme";
 	},
 
 	getHost  : function () {	
-		return "https://sapes1.sapdevcenter.com";
+		return "http://wdflbmd6865.secondphase.com.au:50000";
 	},
 
 	getServiceUrl : function () {	
